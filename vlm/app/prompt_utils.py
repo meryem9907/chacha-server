@@ -1,0 +1,112 @@
+
+import re
+from typing import Any, MutableMapping, Mapping
+import ast
+from collections.abc import Mapping
+
+def build_dynamic_prompt(entry: Any | Mapping | list | MutableMapping | dict) -> str:
+    """
+    Build a dynamic prompt for the model based on the provided entry.
+    The prompt includes information about the figure type, caption, question,
+    and specific instructions based on the QA type.
+    The function also includes reasoning steps for the model to follow.
+
+    Args:
+        entry (dict): A dictionary containing the information needed to build the prompt. Based on the Dataset format from SciVQA.
+    
+    Returns:
+        str: The constructed prompt string.
+    """
+    question = entry.get("question")
+    qa_type_raw = entry.get("qa_pair_type")
+    caption = entry.get("caption", "")
+    figure_type = entry.get("figure_type", "figure")
+    compound = entry.get("compound", False)
+    figs_numb = entry.get("figs_numb", 0)
+    answer_options = entry.get("answer_options", "")
+
+    qa_types = parse_qa_types(qa_type_raw)
+
+    prompt = f"You are looking at a {figure_type}"
+    if compound:
+        prompt += f" with {figs_numb} subfigures"
+    prompt += "."
+
+    if caption:
+        prompt += f"\nThe caption is: '{caption}'."
+
+    prompt += f"\nQuestion: {question}"
+
+    if "visual" in qa_types:
+        prompt += "\n[Visual cue] Pay attention to color, position, shape, size, height, or direction."
+    elif "non-visual" in qa_types:
+        prompt += "\n[Data-only cue] Focus your response more on numeric or textual values."
+    prompt += "\nUse information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself."
+    if "infinite answer set" in qa_types:
+        prompt += (
+            "\nRespond with a concise, one-word or very short phrase. No full sentences, no explanations."
+            "\nIf the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $)."
+        )
+    elif "finite answer set" in qa_types:
+        if "binary" in qa_types:
+            prompt += "\nPlease answer with 'Yes' or 'No' only."
+        else:
+            parsed_options = ast.literal_eval(str(answer_options))
+            options = {k: v for d in parsed_options for k, v in d.items() if v is not None}
+            prompt += f"\nAvailable options: {options}."
+            prompt += "\nRespond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between)."
+            prompt += "\nDo not include explanations, full sentences, or option text."
+
+    prompt += "\nIf the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'"
+
+    prompt += (
+        "\n"
+        "<thinking> Reasoning (do NOT respond yet)\n"
+        "Step 1 Identify the figure type and its axes/legend.\n"
+        "Step 2 Locate the graphical elements relevant to the question.\n"
+        "Step 3 Extract the key-value information.\n"
+        "Step 4 Determine the required values or qualitative trends.\n"
+        "Step 5 Integrate insights from the caption when necessary.\n"
+        f"Step 6 {'Evaluate the provided answer choices and select the best one' if 'finite answer set' in qa_types and 'binary' not in qa_types else 'Ensure the answer is either Yes or No as required'}\n"
+        "Step 7 Produce the concise answer following the formatting rules above.\n"
+        "\n"
+        "Final respond:\n"
+    )
+
+    return prompt.strip()
+
+
+def parse_qa_types(qa_type_raw: str) -> set[str]:
+    """
+    Parse the QA type string to identify the types of questions.
+    The function looks for specific tokens in the input string and returns a set of identified types.
+
+    Args: 
+        qa_type_raw (str): The raw QA type string to be parsed.
+
+    Returns:
+        set[str]: A set of identified QA types based on the input string.
+    """
+    qa_str = str(qa_type_raw).lower()
+
+    ordered_tokens = [
+        "closed-ended",
+        "unanswerable",
+        "infinite answer set",
+        "finite answer set",
+        "non-binary",
+        "binary",
+        "non-visual",
+        "visual",
+    ]
+
+    found = set()
+    for token in ordered_tokens:
+        # match token as a whole word; allow spaces or semicolons as separators
+        pattern = r"(?:^|[\s;])" + re.escape(token) + r"(?:[\s;]|$)"
+        if re.search(pattern, qa_str):
+            found.add(token)
+            # strip out the matched portion to prevent nested matches
+            qa_str = re.sub(pattern, " ", qa_str, count=1)
+
+    return found

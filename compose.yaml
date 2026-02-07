@@ -1,0 +1,33 @@
+services:
+  app:
+    build: 
+      context: ./app
+      no_cache: true
+    depends_on:
+      - vlm
+    env_file:
+      - ./app/.env
+    ports:
+      - "127.0.0.1:5000:5000"
+    volumes:
+      - sqlite_data:/data
+    restart: unless-stopped
+
+  vlm:
+    build: 
+      context: ./vlm
+      no_cache: true
+    env_file:
+      - ./vlm/.env
+    volumes:
+      - models_cache:/models
+      - ./predictions:/predictions:rw
+    ports:
+      - "5001"
+    shm_size: "2gb"
+    restart: unless-stopped
+
+volumes:
+  sqlite_data:
+  models_cache:
+   

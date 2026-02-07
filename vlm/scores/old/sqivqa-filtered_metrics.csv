@@ -1,0 +1,4 @@
+figure_type;qa_pair_type;rouge1_fmeasure;rouge1_precision;rouge1_recall;rougeL_fmeasure;rougeL_precision;rougeL_recall;bertscore_f1;bertscore_precision;bertscore_recall
+line chart;closed-ended infinite answer set non-visual;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+line chart;closed-ended infinite answer set visual;0.0;0.0;0.0;0.0;0.0;0.0;0.88;0.93;0.84
+line chart;unanswerable;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0

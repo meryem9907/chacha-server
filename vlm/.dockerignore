@@ -1,0 +1,7 @@
+# Ignore everything inside app/
+app/**
+
+# But keep the directory and this one file
+!app/
+!app/model.py
+!app/__init__.py

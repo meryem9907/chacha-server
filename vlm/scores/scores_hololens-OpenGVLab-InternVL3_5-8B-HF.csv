@@ -1,0 +1,4 @@
+Metric;F1 (%);Precision (%);Recall (%)
+ROUGE-1;55.705;56.929;58.931
+ROUGE-L;55.602;56.858;58.717
+BERTScore;95.338;95.49;95.255

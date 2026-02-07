@@ -1,0 +1,38 @@
+figure_type;qa_pair_type;rouge1_fmeasure;rouge1_precision;rouge1_recall;rougeL_fmeasure;rougeL_precision;rougeL_recall;bertscore_f1;bertscore_precision;bertscore_recall
+Architecture Diagram;closed-ended finite answer set non-binary visual;0.0;0.0;0.0;0.0;0.0;0.0;1.0;1.0;1.0
+Graph;closed-ended infinite answer set visual;0.5;0.5;0.5;0.5;0.5;0.5;0.98;0.98;0.98
+Line Chart;closed-ended finite answer set non-binary non-visual;0.0;0.0;0.0;0.0;0.0;0.0;1.0;1.0;1.0
+Line Chart;closed-ended finite answer set non-binary visual;0.33;0.5;0.25;0.33;0.5;0.25;0.94;0.97;0.92
+Line Chart;unanswerable;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+bar chart;closed-ended finite answer set non-binary non-visual;0.0;0.0;0.0;0.0;0.0;0.0;0.82;0.8;0.83
+bar chart;closed-ended finite answer set non-binary visual;0.33;0.33;0.33;0.33;0.33;0.33;0.95;0.93;0.96
+box plot;closed-ended finite answer set non-binary non-visual;0.0;0.0;0.0;0.0;0.0;0.0;0.82;0.81;0.83
+box plot;closed-ended finite answer set non-binary visual;0.5;1.0;0.33;0.5;1.0;0.33;0.83;0.89;0.77
+box plot;closed-ended infinite answer set non-visual;0.0;0.0;0.0;0.0;0.0;0.0;1.0;1.0;1.0
+confusion matrix;closed-ended finite answer set binary non-visual;0.5;0.5;0.5;0.5;0.5;0.5;0.95;0.97;0.93
+confusion matrix;closed-ended finite answer set non-binary non-visual;0.67;1.0;0.5;0.67;1.0;0.5;0.91;0.93;0.88
+confusion matrix;closed-ended finite answer set non-binary visual;0.0;0.0;0.0;0.0;0.0;0.0;1.0;1.0;1.0
+graph;closed-ended infinite answer set non-visual;0.0;0.0;0.0;0.0;0.0;0.0;1.0;1.0;1.0
+graph;closed-ended infinite answer set visual;0.67;0.5;1.0;0.67;0.5;1.0;0.91;0.89;0.93
+histogram;closed-ended finite answer set binary visual;1.0;1.0;1.0;1.0;1.0;1.0;0.94;0.96;0.92
+line chart;closed-ended finite answer set binary non-visual;0.92;0.89;1.0;0.92;0.89;1.0;0.95;0.95;0.94
+line chart;closed-ended finite answer set binary visual;0.78;0.78;0.78;0.78;0.78;0.78;0.95;0.97;0.94
+line chart;closed-ended finite answer set non-binary non-visual;0.4;0.4;0.4;0.4;0.4;0.4;1.0;1.0;1.0
+line chart;closed-ended finite answer set non-binary visual;0.41;0.39;0.44;0.41;0.39;0.44;0.99;0.98;0.99
+line chart;closed-ended infinite answer set non-visual;0.73;0.75;0.71;0.73;0.75;0.71;0.96;0.96;0.95
+line chart;closed-ended infinite answer set visual;0.36;0.42;0.36;0.36;0.42;0.36;0.91;0.91;0.91
+line chart;unanswerable;0.82;0.82;0.84;0.82;0.81;0.84;0.97;0.97;0.97
+neural networks;closed-ended finite answer set binary non-visual;1.0;1.0;1.0;1.0;1.0;1.0;0.96;0.97;0.94
+neural networks;closed-ended finite answer set non-binary non-visual;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+pie chart;closed-ended finite answer set non-binary non-visual;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+pie chart;closed-ended finite answer set non-binary visual;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+scatter plot;closed-ended finite answer set binary visual;1.0;1.0;1.0;1.0;1.0;1.0;0.96;0.97;0.94
+scatter plot;closed-ended finite answer set non-binary non-visual;0.67;0.67;0.67;0.67;0.67;0.67;0.89;0.87;0.91
+scatter plot;closed-ended finite answer set non-binary visual;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+scatter plot;closed-ended infinite answer set non-visual;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+scatter plot;closed-ended infinite answer set visual;0.67;0.5;1.0;0.67;0.5;1.0;0.87;0.83;0.91
+scatter plot;unanswerable;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+tree;closed-ended finite answer set binary visual;1.0;1.0;1.0;1.0;1.0;1.0;0.96;0.97;0.94
+tree;closed-ended finite answer set non-binary visual;0.0;0.0;0.0;0.0;0.0;0.0;0.8;0.81;0.78
+tree;unanswerable;0.12;0.08;0.21;0.12;0.08;0.21;0.82;0.79;0.85
+venn diagram;closed-ended finite answer set binary non-visual;1.0;1.0;1.0;1.0;1.0;1.0;0.96;0.97;0.94
