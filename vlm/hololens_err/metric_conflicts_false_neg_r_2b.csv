@@ -1,0 +1,1 @@
+instance_id;figure_id;image_file;dynamic_prompt;answer_options;figure_type;qa_pair_type;caption;question;gold;prediction;rouge1_precision;rouge1_recall;rouge1_fmeasure;rougeL_precision;rougeL_recall;rougeL_fmeasure;bertscore_precision;bertscore_recall;bertscore_f1;gold_n;pred_n;exact_match;sim_high_r;sim_low_r;sim_high_b;sim_low_b

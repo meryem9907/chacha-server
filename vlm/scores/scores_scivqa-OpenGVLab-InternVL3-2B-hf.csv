@@ -1,4 +1,7 @@
-Metric;F1 (%);Precision (%);Recall (%)
-ROUGE-1;33.36;32.187;49.881
-ROUGE-L;33.164;32.045;49.524
-BERTScore;88.695;87.617;89.856
+;High resolution (original SciVQA pictures);;;;;;Low resolution (Hololens pictures);;;;;
+;OpenGVLab-InternVL3-2B-hf;;;OpenGVLab-InternVL3-8B-HF;;;OpenGVLab-InternVL3-2B-hf;;;OpenGVLab-InternVL3-8B-HF;;
+;F1 (%);Precision (%);Recall (%);F1 (%);Precision (%);Recall (%);F1 (%);Precision (%);Recall (%);F1 (%);Precision (%);Recall (%)
+ROUGE-1;33,36;32,19;49,88; 59,21 ; 60,33 ; 60,36 ; 28,58 ; 26,48 ; 47,21 ; 55,71 ; 56,93 ; 58,93 
+ROUGE-L;33,16;32,05;49,52; 59,16 ; 60,29 ; 60,29 ; 28,47 ; 26,40 ; 47,0 ; 55,60 ; 56,86 ; 58,72 
+BERTScore;88,70;87,62;89,86; 95,34 ; 95,48 ; 95,25 ; 88,06 ; 86,86 ; 89,34 ; 95,34 ; 95,49 ; 95,26 
+;;;;;;;;;;;;

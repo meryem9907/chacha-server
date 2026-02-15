@@ -1,0 +1,928 @@
+instance_id;figure_id;image_file;dynamic_prompt;answer_options;figure_type;qa_pair_type;caption;question;gold;prediction;rouge1_precision;rouge1_recall;rouge1_fmeasure;rougeL_precision;rougeL_recall;rougeL_fmeasure;bertscore_precision;bertscore_recall;bertscore_f1;gold_n;pred_n;exact_match;sim_high_r;sim_low_r;sim_high_b;sim_low_b
+a4800048c52a9b9b6e40d0249bc59323;W12-4625.pdf-Figure10;W12-4625.pdf-Figure10.png;"You are looking at a tree.
+The caption is: 'Figure 10: Disambiguated FRMG output, with depFRMG edges above and converted depFTB edges below'.
+Question: What are the color(s) of arrows that point from right to left in the image?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'Blue', 'B': 'Purple', 'C': 'Red', 'D': 'Green'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""Blue"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""Purple"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Red"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""Green""}]";tree;closed-ended finite answer set non-binary visual;Figure 10: Disambiguated FRMG output, with depFRMG edges above and converted depFTB edges below;What are the color(s) of arrows that point from right to left in the image?;A,B,C;The answer is: A;0.25;0.3333333333333333;0.2857142857142857;0.25;0.3333333333333333;0.2857142857142857;0.8129702806472778;0.7965229749679565;0.8046625852584839;A,B,C;The answer is: A;False;False;True;True;False
+7e045cc686098f3bf59ae4d1aefd1bf6;2002.10375v2-Figure2-1;2002.10375v2-Figure2-1.png;"You are looking at a line chart.
+The caption is: 'Figure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.'.
+Question: What is the accuracy value of the blue line at t=120?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': '0.95', 'B': '0.85', 'C': '0.75', 'D': 'between 0.95 and 100'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""0.95"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""0.85"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""0.75"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""between 0.95 and 100""}]";line chart;closed-ended finite answer set non-binary visual;Figure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.;What is the accuracy value of the blue line at t=120?;D;The blue line represents the discriminator with context. At t=120, the accuracy value of the blue line is about 0.95.. So, the answer is A.;0.0;0.0;0.0;0.0;0.0;0.0;0.7989851236343384;0.81556236743927;0.8071886301040649;D;The blue line represents the discriminator with context. At t=120, the accuracy value of the blue line is about 0.95.. So, the answer is A;False;False;True;True;False
+bd27b7aa0867bf59745a8230e4f9289f;1709.05227v1-Figure4-1;1709.05227v1-Figure4-1.png;"You are looking at a line chart.
+The caption is: 'Figure 4: Errors corrected for dynamic-proposed and several other settings (see Table 7.2), plotted against update frequency (first 3 methods) or enrollment time (following 2 methods) as described in the text.'.
+Question: What is the approximate value of corrected errors for the blue line at an update frequency of 100 minutes?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set visual;Figure 4: Errors corrected for dynamic-proposed and several other settings (see Table 7.2), plotted against update frequency (first 3 methods) or enrollment time (following 2 methods) as described in the text.;What is the approximate value of corrected errors for the blue line at an update frequency of 100 minutes?;between 1600 and 1800;The blue line represents the dynamic-oracleCM method. At an update frequency of 100 minutes, the corrected errors for the blue line are about 200.;0.0;0.0;0.0;0.0;0.0;0.0;0.8033007979393005;0.8151112198829651;0.8091629147529602;between 1600 and 1800;The blue line represents the dynamic-oracleCM method. At an update frequency of 100 minutes, the corrected errors for the blue line are about 200;False;False;True;True;False
+89f91c2ca70703dadee5b510a34ccfac;W12-0203.pdf-Figure4;W12-0203.pdf-Figure4.png;"You are looking at a scatter plot.
+The caption is: 'Figure 4: Screencap of Motion Chart for COLLISION'.
+Question: What is the range of the values presented in x-axis?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': '-0.4 to 1', 'B': '-0.2 to 1', 'C': '-0.4 to 2', 'D': 'None of the above'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""-0.4 to 1"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""-0.2 to 1"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""-0.4 to 2"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""None of the above""}]";scatter plot;closed-ended finite answer set non-binary non-visual;Figure 4: Screencap of Motion Chart for COLLISION;What is the range of the values presented in x-axis?;A;The scatter plot shows a range of values on the x-axis from -0.4 to 1.;0.0588235294117647;1.0;0.1111111111111111;0.0588235294117647;1.0;0.1111111111111111;0.7905886173248291;0.8294033408164978;0.8095309734344482;A;The scatter plot shows a range of values on the x-axis from -0.4 to 1;False;False;True;True;False
+f864eff69d4d3ee270b91460c8dd0a94;2020.acl-main.170.pdf-Figure7;2020.acl-main.170.pdf-Figure7.png;"You are looking at a scatter plot with 2 subfigures.
+The caption is: 'Figure 7: Visualization of source embeddings. Models trained on WMT14 En-Fr (4m).'.
+Question: Which model is represented in the graph (a)?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];scatter plot;closed-ended infinite answer set non-visual;Figure 7: Visualization of source embeddings. Models trained on WMT14 En-Fr (4m).;Which model is represented in the graph (a)?;BPE;It is not possible to answer this question based only on the provided data.;0.0;0.0;0.0;0.0;0.0;0.0;0.8173438310623169;0.8021013736724854;0.8096508979797363;BPE;It is not possible to answer this question based only on the provided data;False;False;True;True;False
+b85df166bc20b89514ab24208a2fa0cc;1802.03116v1-Figure4-1;1802.03116v1-Figure4-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 4: Comparison with ORACLE that uses direct source-target parallel or comparable corpora. The JOINT model corresponds to horizontal lines.'.
+Question: Which of the following represents the trend of the JOINT model in the right graph (b)?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'The red solid line', 'B': 'The blue dashed line', 'C': 'Both the red solid line and the blue dashed line', 'D': 'Neither the red solid line nor the blue dashed line'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""The red solid line"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""The blue dashed line"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Both the red solid line and the blue dashed line"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""Neither the red solid line nor the blue dashed line""}]";line chart;closed-ended finite answer set non-binary visual;Figure 4: Comparison with ORACLE that uses direct source-target parallel or comparable corpora. The JOINT model corresponds to horizontal lines.;Which of the following represents the trend of the JOINT model in the right graph (b)?;C;The JOINT model corresponds to horizontal lines in the right graph (b).;0.0;0.0;0.0;0.0;0.0;0.0;0.7917883396148682;0.8292850852012634;0.8101029992103577;C;The JOINT model corresponds to horizontal lines in the right graph (b);False;False;True;True;False
+d8788111194d7c489340e4e6f1acd4a2;2020.acl-main.67.pdf-Figure6;2020.acl-main.67.pdf-Figure6.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 6: BLEU variation between models with different Ke with respect to size of AMR graph and (left) and reentrancy numbers (right).'.
+Question: What value of Ke corresponds to the blue line?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': '0', 'B': '1', 'C': '4', 'D': '2'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""0"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""1"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""4"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""2""}]";line chart;closed-ended finite answer set non-binary non-visual;Figure 6: BLEU variation between models with different Ke with respect to size of AMR graph and (left) and reentrancy numbers (right).;What value of Ke corresponds to the blue line?;A;The blue line corresponds to Ke=0.;0.0;0.0;0.0;0.0;0.0;0.0;0.7970682382583618;0.8238263726234436;0.8102263808250427;A;The blue line corresponds to Ke=0;False;False;True;True;False
+55215f3d30066961b1e92fc097bdc10e;2020.acl-main.39.pdf-Figure6;2020.acl-main.39.pdf-Figure6.png;"You are looking at a bar chart.
+The caption is: 'Figure 6: SeqAcc for the Location Attender and best baseline on the Long Lookup Tables task (10 runs).'.
+Question: Which dataset shows the lowest value for blue bar?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'Long 1', 'B': 'Long 4', 'C': 'Long 5', 'D': 'Long 3'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""Long 1"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""Long 4"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Long 5"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""Long 3""}]";bar chart;closed-ended finite answer set non-binary visual;Figure 6: SeqAcc for the Location Attender and best baseline on the Long Lookup Tables task (10 runs).;Which dataset shows the lowest value for blue bar?;C;The lowest value for the blue bar is shown in Long 5.;0.0;0.0;0.0;0.0;0.0;0.0;0.7943381071090698;0.8269839286804199;0.8103323578834534;C;The lowest value for the blue bar is shown in Long 5;False;False;True;True;False
+0cba32b024551086faaedb3265b600b6;1106.4571v1-Figure16-1;1106.4571v1-Figure16-1.png;"You are looking at a line chart.
+The caption is: 'Figure 16: Baseline Artificial Corpus'.
+Question: How many dots are there before training example 200?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': '3', 'B': '5', 'C': '1', 'D': '4'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""3"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""5"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""1"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""4""}]";line chart;closed-ended finite answer set non-binary visual;Figure 16: Baseline Artificial Corpus;How many dots are there before training example 200?;A;The dots before training example 200 are part of the 'Precision' line. By visually inspecting the graph, it appears that there are 5 dots before training example 200. Therefore, the answer is 'B'.;0.0;0.0;0.0;0.0;0.0;0.0;0.7910468578338623;0.8316621780395508;0.8108462691307068;A;The dots before training example 200 are part of the 'Precision' line. By visually inspecting the graph, it appears that there are 5 dots before training example 200. Therefore, the answer is 'B';False;False;True;True;False
+0d738904bc6d85a075a8b284f2c6924d;2020.acl-main.158.pdf-Figure5;2020.acl-main.158.pdf-Figure5.png;"You are looking at a bar chart.
+The caption is: 'Figure 5: Evaluation results on all models, split across test suite circuits.'.
+Question: What is the colour of the bar representing the RNNG model?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'green', 'B': 'red', 'C': 'yellow', 'D': 'brown'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""green"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""red"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""yellow"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""brown""}]";bar chart;closed-ended finite answer set non-binary visual;Figure 5: Evaluation results on all models, split across test suite circuits.;What is the colour of the bar representing the RNNG model?;B;The colour of the bar representing the RNNG model is red.;0.0;0.0;0.0;0.0;0.0;0.0;0.7966046333312988;0.8275161385536194;0.8117662072181702;B;The colour of the bar representing the RNNG model is red;False;False;True;True;False
+239f1c3a453542c891632179af7fc8aa;S19-2111.pdf-Figure5;S19-2111.pdf-Figure5.png;"You are looking at a confusion matrix.
+The caption is: 'Figure 5: Sub-task B, HAD-Tubingen LSTM + Preprocessing.'.
+Question: Based on Figure 5's caption and the provided data, which of the following statements are true regarding the model HAD-Tubingen LSTM + Preprocessing during sub-task B?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'The model correctly predicted 199 instances of TIN.', 'B': 'The model incorrectly predicted 24 instances of UNT as TIN.', 'C': 'The model correctly predicted 3 instances of UNT.', 'D': 'The model incorrectly predicted 14 instances of TIN as UNT.'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""The model correctly predicted 199 instances of TIN."", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""The model incorrectly predicted 24 instances of UNT as TIN."", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""The model correctly predicted 3 instances of UNT."", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""The model incorrectly predicted 14 instances of TIN as UNT.""}]";confusion matrix;closed-ended finite answer set non-binary non-visual;Figure 5: Sub-task B, HAD-Tubingen LSTM + Preprocessing.;Based on Figure 5's caption and the provided data, which of the following statements are true regarding the model HAD-Tubingen LSTM + Preprocessing during sub-task B?;A,B,C,D;A: The model correctly predicted 199 instances of TIN. B: The model incorrectly predicted 24 instances of UNT as TIN. C: The model correctly predicted 3 instances of UNT. D: The model incorrectly predicted 14 instances of TIN as UNT.. It is not possible to answer this question based only on the provided data.. Final respond: D;0.0701754385964912;1.0;0.1311475409836065;0.0701754385964912;1.0;0.1311475409836065;0.7804168462753296;0.8465689420700073;0.8121480345726013;A,B,C,D;A: The model correctly predicted 199 instances of TIN. B: The model incorrectly predicted 24 instances of UNT as TIN. C: The model correctly predicted 3 instances of UNT. D: The model incorrectly predicted 14 instances of TIN as UNT.. It is not possible to answer this question based only on the provided data.. Final respond: D;False;False;True;True;False
+518f8cb607bda51c2472fcc6a41ea26f;1907.00443v1-Figure3-1;1907.00443v1-Figure3-1.png;"You are looking at a line chart.
+The caption is: 'Fig. 3. DET curves showing the performance of monolingual and multilingual features estimated using FFNs and ResNets for T1 queries of QUESST 2014.'.
+Question: What is the color of the line representing ""ResNet: PT-SP-RU-FR-GE""?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set visual;Fig. 3. DET curves showing the performance of monolingual and multilingual features estimated using FFNs and ResNets for T1 queries of QUESST 2014.;"What is the color of the line representing ""ResNet: PT-SP-RU-FR-GE""?";Blue;It is not possible to answer this question based only on the provided data.;0.0;0.0;0.0;0.0;0.0;0.0;0.802370011806488;0.822586715221405;0.8123525977134705;Blue;It is not possible to answer this question based only on the provided data;False;False;True;True;False
+650b5ee98c27ed6f9400c43de49b03a3;2020.acl-main.493.pdf-Figure9;2020.acl-main.493.pdf-Figure9.png;"You are looking at a scatter plot.
+The caption is: 'Figure 9: Syntactic difference vectors visualized after dimensionality reduction with PCA, instead of t-SNE, colored by UD dependency types. There are no significant trends evident.'.
+Question: Which of the following does the figure include?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'x coordinate values', 'B': 'y coordinate values', 'C': 'Legend with dependency type labels', 'D': 'Graph title'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""x coordinate values"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""y coordinate values"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Legend with dependency type labels"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""Graph title""}]";scatter plot;closed-ended finite answer set non-binary non-visual;Figure 9: Syntactic difference vectors visualized after dimensionality reduction with PCA, instead of t-SNE, colored by UD dependency types. There are no significant trends evident.;Which of the following does the figure include?;C;The figure includes the 'Legend with dependency type labels'.;0.0;0.0;0.0;0.0;0.0;0.0;0.797351598739624;0.8325666785240173;0.8145787119865417;C;The figure includes the 'Legend with dependency type labels';False;False;True;True;False
+54b73ac1254bac120f3242343ef1f54a;1705.02304v1-Figure4-1;1705.02304v1-Figure4-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 4: The effect of softmax pre-training, trained and measured in Train50k and Eva200 dataset, using ResCNN network architecture. (a) accuracy (ACC) vs epoch trained and (b) equal error rate (EER) vs epoch trained'.
+Question: Which line in the bottom graph represents the model with pre-training?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'The red line', 'B': 'The blue line', 'C': 'Both lines', 'D': 'Neither line'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""The red line"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""The blue line"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Both lines"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""Neither line""}]";line chart;closed-ended finite answer set non-binary visual;Figure 4: The effect of softmax pre-training, trained and measured in Train50k and Eva200 dataset, using ResCNN network architecture. (a) accuracy (ACC) vs epoch trained and (b) equal error rate (EER) vs epoch trained;Which line in the bottom graph represents the model with pre-training?;B;The answer is: 'The red line'.;0.0;0.0;0.0;0.0;0.0;0.0;0.7960147857666016;0.8372686505317688;0.8161207437515259;B;The answer is: 'The red line';False;False;True;True;False
+400feb7330cf28b1b160c5bca99e82ed;1608.00929v1-Figure2-1;1608.00929v1-Figure2-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 2: Left: Densities versus oracle error rates of lattices generated by different pruning methods.Right: Time spent on generating the lattices with different pruning methods.'.
+Question: What is the value of the lattice density when the oracle error rate of the blue line is at its minimum?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set visual;Figure 2: Left: Densities versus oracle error rates of lattices generated by different pruning methods.Right: Time spent on generating the lattices with different pruning methods.;What is the value of the lattice density when the oracle error rate of the blue line is at its minimum?;400 - 800;It is not possible to answer this question based only on the provided data.;0.0;0.0;0.0;0.0;0.0;0.0;0.8123657703399658;0.81996750831604;0.8161489367485046;400 - 800;It is not possible to answer this question based only on the provided data;False;False;True;True;False
+d7f275f07dfa784312b8c6d16582b6d2;1906.02882v1-Figure7-1;1906.02882v1-Figure7-1.png;"You are looking at a line chart.
+The caption is: 'Figure 7: Impact of training data size.'.
+Question: What is the highest accuracy achieved with the tuned model?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': '88.30%', 'B': '92.00%', 'C': '86.94%', 'D': '83.50%'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""88.30%"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""92.00%"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""86.94%"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""83.50%""}]";line chart;closed-ended finite answer set non-binary non-visual;Figure 7: Impact of training data size.;What is the highest accuracy achieved with the tuned model?;B;The highest accuracy achieved with the tuned model is 92.00%.;0.0;0.0;0.0;0.0;0.0;0.0;0.8091301918029785;0.824436366558075;0.8167115449905396;B;The highest accuracy achieved with the tuned model is 92.00%;False;False;True;True;False
+ed8133d4d9f514fb41bcb814d15995ed;2020.acl-main.72.pdf-Figure7;2020.acl-main.72.pdf-Figure7.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 7: Hit ratio (|Ui|/|C|) in terms of each iteration number by LR, +Fd(p), and HB. The upper and lower graphs start with one and three seeds, respectively.'.
+Question: What is the marker shape for the blue line?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'Square', 'B': 'Circle', 'C': 'Triangle', 'D': 'X'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""Square"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""Circle"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Triangle"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""X""}]";line chart;closed-ended finite answer set non-binary visual;Figure 7: Hit ratio (|Ui|/|C|) in terms of each iteration number by LR, +Fd(p), and HB. The upper and lower graphs start with one and three seeds, respectively.;What is the marker shape for the blue line?;A;The marker shape for the blue line is a square.;0.1;1.0;0.1818181818181818;0.1;1.0;0.1818181818181818;0.8049043416976929;0.8302065134048462;0.8173596858978271;A;The marker shape for the blue line is a square;False;False;True;True;False
+9f9f0fc2cfdd967839bd3521e8157da7;2007.07860v1-Figure4-1;2007.07860v1-Figure4-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 4: Crowdflower-Gender Evaluation 1. Fraction of non-brand posts by male user accounts in summaries generated by standard summarization algorithms (a) and our framework (b).'.
+Question: Which summarization algorithm is associated with the line labeled 'Centroid-Word2Vec-balanced'?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set non-visual;Figure 4: Crowdflower-Gender Evaluation 1. Fraction of non-brand posts by male user accounts in summaries generated by standard summarization algorithms (a) and our framework (b).;Which summarization algorithm is associated with the line labeled 'Centroid-Word2Vec-balanced'?;Our framework;The summarization algorithm associated with the line labeled 'Centroid-Word2Vec-balanced' is the Centroid-Word2Vec-balanced algorithm.;0.0;0.0;0.0;0.0;0.0;0.0;0.789665937423706;0.8475090265274048;0.8175656199455261;Our framework;The summarization algorithm associated with the line labeled 'Centroid-Word2Vec-balanced' is the Centroid-Word2Vec-balanced algorithm;False;False;True;True;False
+66f7c0f148b253a969b5df3e0df8f577;W14-0212.pdf-Figure4;W14-0212.pdf-Figure4.png;"You are looking at a box plot.
+The caption is: 'Figure 4: User answer response delay under three conditions.'.
+Question: Considering the boxplots in Figure 4, which conditions show a median user response delay (red line inside the box) below 1500 ms?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'Leftmost condition', 'B': 'Rightmost condition', 'C': 'Middle condition', 'D': 'None of the above'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""Leftmost condition"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""Rightmost condition"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Middle condition"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""None of the above""}]";box plot;closed-ended finite answer set non-binary visual;Figure 4: User answer response delay under three conditions.;Considering the boxplots in Figure 4, which conditions show a median user response delay (red line inside the box) below 1500 ms?;A,B,C;The answer is 'C'.;0.25;0.3333333333333333;0.2857142857142857;0.25;0.3333333333333333;0.2857142857142857;0.8202351331710815;0.8149697780609131;0.8175939917564392;A,B,C;The answer is 'C';False;False;True;True;False
+8fec1ee7a4c50b57f4a8a283f480dd5e;W19-5211.pdf-Figure16;W19-5211.pdf-Figure16.png;"You are looking at a confusion matrix.
+The caption is: 'Figure 16: POS-based classification accuracy on states from the ENDE encoder.'.
+Question: What is the color of 0.0 in the right side of the figure?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'Green', 'B': 'Red', 'C': 'Blue', 'D': 'Orange'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""Green"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""Red"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Blue"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""Orange""}]";confusion matrix;closed-ended finite answer set non-binary visual;Figure 16: POS-based classification accuracy on states from the ENDE encoder.;What is the color of 0.0 in the right side of the figure?;C;It is not possible to answer this question based only on the provided data.;0.0;0.0;0.0;0.0;0.0;0.0;0.80669766664505;0.8307243585586548;0.8185347318649292;C;It is not possible to answer this question based only on the provided data;False;False;True;True;False
+6fa3ce3e38b022b8843c42826fe64744;1310.7782v2-Figure5-1;1310.7782v2-Figure5-1.png;"You are looking at a Line Chart.
+The caption is: 'Figure 5. Numerical World Color Survey with human JNDs: weakness of the bias. The histogram of the squared distance d = ∑14 i=1(xi − xi) 2 between the position of the i-th centroid and its average (“typical”) value. Black data represent the statistics of those populations displaying 14 linguistic categories at the end of Category Game simulations with the human JND, which were roughly ∼ 1300 of the total 5000 considered populations. The inset displays the actual values of d for each population. Green and red data come from a “Random” model where each “language” is produced by a uniform random distribution of 14 category centroids. A random case with a very large number of languages (red curve) represents the “ideal” statistics of such a model. The distances d from the average pattern (shown in the inset) appear to have a larger average drand than the Category Game model dCG (where by d we refer to the mean value of the random and the CG cases, respectively), but since we are interested in the fluctuations we have rescaled the random model data, dividing them by drand/dCG, in order to compare the histograms. A power law fit ∼ x−3 is also shown as a guide for the eye.'.
+Question: Which of the following lines represent a random model with 1300 languages?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'Green dashed line', 'B': 'Red dashed line', 'C': 'Black dots', 'D': 'Purple dashed line'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""Green dashed line"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""Red dashed line"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Black dots"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""Purple dashed line""}]";Line Chart;closed-ended finite answer set non-binary visual;Figure 5. Numerical World Color Survey with human JNDs: weakness of the bias. The histogram of the squared distance d = ∑14 i=1(xi − xi) 2 between the position of the i-th centroid and its average (“typical”) value. Black data represent the statistics of those populations displaying 14 linguistic categories at the end of Category Game simulations with the human JND, which were roughly ∼ 1300 of the total 5000 considered populations. The inset displays the actual values of d for each population. Green and red data come from a “Random” model where each “language” is produced by a uniform random distribution of 14 category centroids. A random case with a very large number of languages (red curve) represents the “ideal” statistics of such a model. The distances d from the average pattern (shown in the inset) appear to have a larger average drand than the Category Game model dCG (where by d we refer to the mean value of the random and the CG cases, respectively), but since we are interested in the fluctuations we have rescaled the random model data, dividing them by drand/dCG, in order to compare the histograms. A power law fit ∼ x−3 is also shown as a guide for the eye.;Which of the following lines represent a random model with 1300 languages?;A;The answer is: B;0.0;0.0;0.0;0.0;0.0;0.0;0.7956877946853638;0.8443655371665955;0.8193042874336243;A;The answer is: B;False;False;True;True;False
+4925f7580567fd94d65642c5e55100b4;2010.12487v1-Figure13-1;2010.12487v1-Figure13-1.png;"You are looking at a box plot with 2 subfigures.
+The caption is: 'Figure 13: Influence of the number of perturbed samples on the explanation given for a small decision tree on a Yelp review (ν = 0.25, nexp = 100, d = 29). Left panel: n = 50, right panel: n = 8000. Empirical values are less likely to be close to the theoretical predictions for small n.'.
+Question: Which of the following values has no word with theoretical prediction equal to it?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': '0.00', 'B': '0.20', 'C': '0.40', 'D': '0.60'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""0.00"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""0.20"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""0.40"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""0.60""}]";box plot;closed-ended finite answer set non-binary non-visual;Figure 13: Influence of the number of perturbed samples on the explanation given for a small decision tree on a Yelp review (ν = 0.25, nexp = 100, d = 29). Left panel: n = 50, right panel: n = 8000. Empirical values are less likely to be close to the theoretical predictions for small n.;Which of the following values has no word with theoretical prediction equal to it?;C;The answer is: B;0.0;0.0;0.0;0.0;0.0;0.0;0.7963995337486267;0.8436839580535889;0.819360077381134;C;The answer is: B;False;False;True;True;False
+d205f61f1c8cf2ecc734fc465da8cbda;2010.03763v2-Figure3-1;2010.03763v2-Figure3-1.png;"You are looking at a line chart with 10 subfigures.
+The caption is: 'Figure 3: Correlation on BiRD dataset with phrases embedded in sentence context (context-available input setting).'.
+Question: Which model achieves highest correlation across all methods and layers without ABBA?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'BERT', 'B': 'RoBERTa', 'C': 'DistilBERT', 'D': 'XLNet'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""BERT"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""RoBERTa"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""DistilBERT"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""XLNet""}]";line chart;closed-ended finite answer set non-binary non-visual;Figure 3: Correlation on BiRD dataset with phrases embedded in sentence context (context-available input setting).;Which model achieves highest correlation across all methods and layers without ABBA?;D;The answer is: 'XLMNet';0.0;0.0;0.0;0.0;0.0;0.0;0.8026153445243835;0.8382048606872559;0.8200240731239319;D;The answer is: 'XLMNet';False;False;True;True;False
+fa6e20852d803c641dfbc2c698ec1608;1803.06535v2-Figure2-1;1803.06535v2-Figure2-1.png;"You are looking at a line chart.
+The caption is: 'Figure 2: Percentage of sentences binned according to formality score in train set of E&M'.
+Question: What is the approximate percentage of sentences in the train set of E&M with a formality score between -0.5 and -0.25 for the solid black line?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set visual;Figure 2: Percentage of sentences binned according to formality score in train set of E&M;What is the approximate percentage of sentences in the train set of E&M with a formality score between -0.5 and -0.25 for the solid black line?;10%;The approximate percentage of sentences in the train set of E&M with a formality score between -0.5 and -0.25 for the solid black line is 15%.;0.0;0.0;0.0;0.0;0.0;0.0;0.7806953191757202;0.8639485239982605;0.8202147483825684;10%;The approximate percentage of sentences in the train set of E&M with a formality score between -0.5 and -0.25 for the solid black line is 15%;False;False;True;True;False
+9825c44d96b59b16ebffade838ec6595;1910.08350v2-Figure1-1;1910.08350v2-Figure1-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 1: The left plot shows F1 scores of BERT-NCE and INFOWORD as we increase the percentage of training examples on SQuAD (dev). The right plot shows F1 scores of INFOWORD on SQuAD (dev) as a function of λDIM.'.
+Question: At approximately what λDIM does F1 become maximum for INFOWORD on SQuAD?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': '0.2', 'B': '0.4', 'C': '0.6', 'D': '0.8'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""0.2"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""0.4"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""0.6"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""0.8""}]";line chart;closed-ended finite answer set non-binary non-visual;Figure 1: The left plot shows F1 scores of BERT-NCE and INFOWORD as we increase the percentage of training examples on SQuAD (dev). The right plot shows F1 scores of INFOWORD on SQuAD (dev) as a function of λDIM.;At approximately what λDIM does F1 become maximum for INFOWORD on SQuAD?;C;The corresponding answer is: 'B';0.0;0.0;0.0;0.0;0.0;0.0;0.7944880127906799;0.8486026525497437;0.8206542134284973;C;The corresponding answer is: 'B';False;False;True;True;False
+a805cef9018e80e4315f23ef8e451832;2020.acl-main.39.pdf-Figure6;2020.acl-main.39.pdf-Figure6.png;"You are looking at a bar chart.
+The caption is: 'Figure 6: SeqAcc for the Location Attender and best baseline on the Long Lookup Tables task (10 runs).'.
+Question: Which of the following datasets show a higher sequence accuracy for the Transformer Attention?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'Long 1', 'B': 'Long 2', 'C': 'Long 3', 'D': 'Long 5'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""Long 1"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""Long 2"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Long 3"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""Long 5""}]";bar chart;closed-ended finite answer set non-binary non-visual;Figure 6: SeqAcc for the Location Attender and best baseline on the Long Lookup Tables task (10 runs).;Which of the following datasets show a higher sequence accuracy for the Transformer Attention?;A;The answer is: 'Long 1';0.0;0.0;0.0;0.0;0.0;0.0;0.79976886510849;0.8427737355232239;0.8207082748413086;A;The answer is: 'Long 1';False;False;True;True;False
+3eaf2f448521399a15cf88e15ba72b1e;1905.04914v1-Figure6-1;1905.04914v1-Figure6-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 6. Comparison of degree distributions of the entity alignment datasets extracted by different methods'.
+Question: Which of the methods, in '(b) Wikidata' plot have a cumulative distribution of 8 at degree 5?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'SRPRS (normal)', 'B': 'BootEA', 'C': 'DBpedia', 'D': 'JAPE'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""SRPRS (normal)"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""BootEA"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""DBpedia"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""JAPE""}]";line chart;closed-ended finite answer set non-binary non-visual;Figure 6. Comparison of degree distributions of the entity alignment datasets extracted by different methods;Which of the methods, in '(b) Wikidata' plot have a cumulative distribution of 8 at degree 5?;A;The correct answer is: 'C'.;0.0;0.0;0.0;0.0;0.0;0.0;0.7961246967315674;0.8471948504447937;0.8208661675453186;A;The correct answer is: 'C';False;False;True;True;False
+9c9833dc75b954e7459b2853593f2573;2004.05887v1-Figure4-1;2004.05887v1-Figure4-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 4: Classification accuracies on the validation sets with different values for δ. The x-axis shows the selected qth percentiles of the loge frequencies in the training corpus. The y-axis denotes the accuracy when δ is set to the loge frequency value representing the specific qth percentile.'.
+Question: Which of the following models shows the highest accuracy in the validation set for qth percentile values greater than 90?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'CNN', 'B': 'LSTM', 'C': 'BERT', 'D': 'None of the above'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""CNN"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""LSTM"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""BERT"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""None of the above""}]";line chart;closed-ended finite answer set non-binary non-visual;Figure 4: Classification accuracies on the validation sets with different values for δ. The x-axis shows the selected qth percentiles of the loge frequencies in the training corpus. The y-axis denotes the accuracy when δ is set to the loge frequency value representing the specific qth percentile.;Which of the following models shows the highest accuracy in the validation set for qth percentile values greater than 90?;C;The answer is: BERT;0.0;0.0;0.0;0.0;0.0;0.0;0.8010702133178711;0.8428446054458618;0.8214266300201416;C;The answer is: BERT;False;False;True;True;False
+76b2f96b8355f59bac245f717d028ff0;2018.lilt-16.1.pdf-Figure2;2018.lilt-16.1.pdf-Figure2.png;"You are looking at a line chart.
+The caption is: 'FIGURE 2 Results for a single RUSS layer.'.
+Question: What is the maximum depth displayed in the figure?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set non-visual;FIGURE 2 Results for a single RUSS layer.;What is the maximum depth displayed in the figure?;10;The maximum depth displayed in the figure is 18.;0.0;0.0;0.0;0.0;0.0;0.0;0.8185983300209045;0.8268028497695923;0.8226801156997681;10;The maximum depth displayed in the figure is 18;False;False;True;True;False
+5ffdc73aabfd1a09501c8ebb84f39bb6;2020.acl-main.174.pdf-Figure4;2020.acl-main.174.pdf-Figure4.png;"You are looking at a pie chart.
+The caption is: 'Figure 4: Average composition of a CSI summary based on different crime-related aspects.'.
+Question: The slice of which aspect lies at the bottom of the pie chart?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'Crime scene', 'B': 'Perpetrator', 'C': 'Cause of death', 'D': 'Motive'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""Crime scene"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""Perpetrator"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Cause of death"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""Motive""}]";pie chart;closed-ended finite answer set non-binary visual;Figure 4: Average composition of a CSI summary based on different crime-related aspects.;The slice of which aspect lies at the bottom of the pie chart?;C;The slice of 'Evidence' lies at the bottom of the pie chart.;0.0;0.0;0.0;0.0;0.0;0.0;0.8159705400466919;0.8329943418502808;0.8243945240974426;C;The slice of 'Evidence' lies at the bottom of the pie chart;False;False;True;True;False
+36e714f5eb44b27afc85d46d263ed1b7;1907.06042v1-Figure3-1;1907.06042v1-Figure3-1.png;"You are looking at a line chart.
+The caption is: 'Figure 3: Performance curves given labeled training data from target domain. Vertical axis shows F1 score. Performance curve of GAN-CH is plotted to compare with baseline model.'.
+Question: Which of the following lines has the highest F1 score at 25k labeled Chinese QA pairs?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'Black line', 'B': 'Blue line', 'C': 'Green line', 'D': 'None of the above'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""Black line"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""Blue line"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""Green line"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""None of the above""}]";line chart;closed-ended finite answer set non-binary visual;Figure 3: Performance curves given labeled training data from target domain. Vertical axis shows F1 score. Performance curve of GAN-CH is plotted to compare with baseline model.;Which of the following lines has the highest F1 score at 25k labeled Chinese QA pairs?;B;The answer is 'C'.;0.0;0.0;0.0;0.0;0.0;0.0;0.7982616424560547;0.8524740934371948;0.8244776129722595;B;The answer is 'C';False;False;True;True;False
+b88830202f0cb1e319b4e57787eb6ccb;N18-1125.pdf-Figure2;N18-1125.pdf-Figure2.png;"You are looking at a neural networks.
+The caption is: 'Figure 2: One slice of the architecture of Neural Machine Translation based on a generic attention.'.
+Question: Which of the following elements are directly influenced by both ""h"" and ""si-1""?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'αi', 'B': 'si', 'C': 'yi', 'D': 'ci'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""αi"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""si"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""yi"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""ci""}]";neural networks;closed-ended finite answer set non-binary non-visual;Figure 2: One slice of the architecture of Neural Machine Translation based on a generic attention.;"Which of the following elements are directly influenced by both ""h"" and ""si-1""?";A;The answer is 'C'.;0.0;0.0;0.0;0.0;0.0;0.0;0.7969743013381958;0.854741096496582;0.8248475790023804;A;The answer is 'C';False;False;True;True;False
+81ccdf247d426da934cadf38fa24a852;N18-1113.pdf-Figure2;N18-1113.pdf-Figure2.png;"You are looking at a Architecture Diagram.
+The caption is: 'Figure 2: The Reinforced Co-Training framework.'.
+Question: Which of the following is true about the arrows in the figure? 
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'All arrows point to the right.', 'B': 'All arrows point to the left.', 'C': 'All arrows point either to the right or to the left.', 'D': 'None of the above'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""All arrows point to the right."", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""All arrows point to the left."", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""All arrows point either to the right or to the left."", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""None of the above""}]";Architecture Diagram;closed-ended finite answer set non-binary visual;Figure 2: The Reinforced Co-Training framework.;Which of the following is true about the arrows in the figure? ;D;The arrows in the figure point to the right.;0.0;0.0;0.0;0.0;0.0;0.0;0.8239113092422485;0.8283144235610962;0.8261070251464844;D;The arrows in the figure point to the right;False;False;True;True;False
+7b8b9e35f4a8b2bee858d4d286ce6405;2020.acl-main.66.pdf-Figure4;2020.acl-main.66.pdf-Figure4.png;"You are looking at a line chart.
+The caption is: 'Figure 4: Pinskers inequality, our bound, and the total variation squared of parameter estimates for different parameter estimates (c = 0.2). As shown, loss truncation can significantly improve bounds over Pinskers inequality and, in this case, has a nearly identical minimizer to directly minimizing total variation.'.
+Question: How are the quantities in figure 4 calculated?
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;unanswerable;Figure 4: Pinskers inequality, our bound, and the total variation squared of parameter estimates for different parameter estimates (c = 0.2). As shown, loss truncation can significantly improve bounds over Pinskers inequality and, in this case, has a nearly identical minimizer to directly minimizing total variation.;How are the quantities in figure 4 calculated?;It is not possible to answer this question based only on the provided data.;The quantities in Figure 4 are calculated using Pinsker's inequality, loss truncation, and the total variation squared (TV^2) of parameter estimates. The graph shows how these quantities compare for different parameter estimates, with the loss truncation method (in orange) providing a nearly identical minimizer to directly minimizing total variation.;0.0588235294117647;0.2142857142857142;0.0923076923076923;0.0392156862745098;0.1428571428571428;0.0615384615384615;0.8058239817619324;0.854682445526123;0.8295344114303589;It is not possible to answer this question based only on the provided data;The quantities in Figure 4 are calculated using Pinsker's inequality, loss truncation, and the total variation squared (TV^2) of parameter estimates. The graph shows how these quantities compare for different parameter estimates, with the loss truncation method (in orange) providing a nearly identical minimizer to directly minimizing total variation;False;False;True;True;False
+cceb65f7f2805ebafc266bb654664655;C08-1126.pdf-Figure3;C08-1126.pdf-Figure3.png;"You are looking at a graph.
+The caption is: 'Figure 3: A path through the wordnet.'.
+Question: How many nodes are in the graph?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];graph;closed-ended infinite answer set non-visual;Figure 3: A path through the wordnet.;How many nodes are in the graph?;26;The graph contains 24 nodes.;0.0;0.0;0.0;0.0;0.0;0.0;0.83353191614151;0.8409507870674133;0.8372249007225037;26;The graph contains 24 nodes;False;False;True;True;False
+9cdfdb5d2ce09d322c1b43794780b3a9;1703.07713v2-Figure2-1;1703.07713v2-Figure2-1.png;"You are looking at a line chart.
+The caption is: 'Figure 2: Effect of the context size and different attention mechanisms. The context size is the number of utterances, excluding the critical sentence, on each side of the decision point; a size of 0 refers to no context.'.
+Question: What is the specific task or problem being addressed by the model in this figure?
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;unanswerable;"Figure 2: Effect of the context size and different attention mechanisms. The context size is the number of utterances, excluding the critical sentence, on each side of the decision point; a size of 0 refers to no context.";What is the specific task or problem being addressed by the model in this figure?;It is not possible to answer this question based only on the provided data.;The specific task or problem being addressed by the model in this figure is the comparison of different attention mechanisms in an RNN model, specifically how they affect the performance (measured by F1 score) as the context size changes.;0.0769230769230769;0.2142857142857142;0.1132075471698113;0.0512820512820512;0.1428571428571428;0.0754716981132075;0.8307266235351562;0.8547682166099548;0.8425759077072144;It is not possible to answer this question based only on the provided data;The specific task or problem being addressed by the model in this figure is the comparison of different attention mechanisms in an RNN model, specifically how they affect the performance (measured by F1 score) as the context size changes;False;False;True;True;False
+2db104ddc9e32883aa192672587530d7;2010.02975v1-Figure3-1;2010.02975v1-Figure3-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 3: Cosine similarity between the gradients issued from LINT and LCEpretrain. The collapse of the BLEU En matches the negative cosine similarity.We here set α = 0.5 but similar values yield identical behavior as shown in Figure 4 in Appendix.'.
+Question: What is the approximate value of the orange line at 1.0 steps in the left graph?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set visual;Figure 3: Cosine similarity between the gradients issued from LINT and LCEpretrain. The collapse of the BLEU En matches the negative cosine similarity.We here set α = 0.5 but similar values yield identical behavior as shown in Figure 4 in Appendix.;What is the approximate value of the orange line at 1.0 steps in the left graph?;30.0;The orange line represents the S2P metric in the left graph. At 1.0 steps, the orange line is about at 25.0 on the BLEU EN scale.;0.0357142857142857;0.5;0.0666666666666666;0.0357142857142857;0.5;0.0666666666666666;0.8154025077819824;0.883737325668335;0.8481957912445068;30.0;The orange line represents the S2P metric in the left graph. At 1.0 steps, the orange line is about at 25.0 on the BLEU EN scale;False;False;True;True;False
+22015fed71ba4fcf4b2c717cde6bc4af;2020.acl-main.57.pdf-Figure2;2020.acl-main.57.pdf-Figure2.png;"You are looking at a line chart.
+The caption is: 'Figure 2: The per-turn accuracy of different methods on the test set during fine-tuning with 1 dialog adaptation where the target domain is restaurant.'.
+Question: What is the approximate value of the per-turn accuracy for the green line at the 10th fine-tuning iteration?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set visual;Figure 2: The per-turn accuracy of different methods on the test set during fine-tuning with 1 dialog adaptation where the target domain is restaurant.;What is the approximate value of the per-turn accuracy for the green line at the 10th fine-tuning iteration?;0.8;The green line represents the Mem method. At the 10th fine-tuning iteration, the per-turn accuracy for the green line is about 0.58.;0.04;0.5;0.074074074074074;0.04;0.5;0.074074074074074;0.8309991955757141;0.8687217235565186;0.8494419455528259;0.8;The green line represents the Mem method. At the 10th fine-tuning iteration, the per-turn accuracy for the green line is about 0.58;False;False;True;True;False
+e774503fc153ac1601799eeb9cf8e537;1902.07249v2-Figure9-1;1902.07249v2-Figure9-1.png;"You are looking at a line chart.
+The caption is: 'Figure 9: Ratio of interpretable units in layer-wise. Across all datasets, there are more than 90% of units are interpretable. See Section D for more details.'.
+Question: What is the approximate value of the green line at layer index 3?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set visual;Figure 9: Ratio of interpretable units in layer-wise. Across all datasets, there are more than 90% of units are interpretable. See Section D for more details.;What is the approximate value of the green line at layer index 3?;0.9;It is not possible to answer this question based only on the provided data.;0.0;0.0;0.0;0.0;0.0;0.0;0.8357836008071899;0.866582453250885;0.8509044051170349;0.9;It is not possible to answer this question based only on the provided data;False;False;True;True;False
+e9b9f85179c1fc4c556d01a335563a4c;1605.03261v1-Figure12-1;1605.03261v1-Figure12-1.png;"You are looking at a line chart.
+The caption is: 'Fig. 12: Principle Component Analysis on the Cs neurons (with different object locations)'.
+Question: What is the approximate value of the x-axis where the arrow labeled 'pos 3' is pointing on the main line?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set visual;Fig. 12: Principle Component Analysis on the Cs neurons (with different object locations);What is the approximate value of the x-axis where the arrow labeled 'pos 3' is pointing on the main line?;-0.4;The arrow labeled 'pos 3' is pointing to the x-axis value of about 0.2.;0.0625;0.5;0.1111111111111111;0.0625;0.5;0.1111111111111111;0.8327251672744751;0.8781453371047974;0.8548323512077332;-0.4;The arrow labeled 'pos 3' is pointing to the x-axis value of about 0.2;False;False;True;True;False
+73fa8e149c9a23ad3f165df6fe8b7515;1701.08340v2-Figure3-1;1701.08340v2-Figure3-1.png;"You are looking at a line chart.
+The caption is: 'Figure 3: Effect of using different corpora in with different comparability degree'.
+Question: What is the specific task these model are trained for?
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;unanswerable;Figure 3: Effect of using different corpora in with different comparability degree;What is the specific task these model are trained for?;It is not possible to answer this question based only on the provided data.;The specific task these models are trained for is not explicitly stated in the figure caption. However, the graph shows different accuracies for various corpora and their effects on model performance.;0.1290322580645161;0.2857142857142857;0.1777777777777777;0.0967741935483871;0.2142857142857142;0.1333333333333333;0.8472177982330322;0.8658796548843384;0.8564470410346985;It is not possible to answer this question based only on the provided data;The specific task these models are trained for is not explicitly stated in the figure caption. However, the graph shows different accuracies for various corpora and their effects on model performance;False;False;True;True;False
+8a26047885478b330c2792b3d1c29a8b;1705.04400v1-Figure4-1;1705.04400v1-Figure4-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 4. 4a and 4b plot CER and serving latency respectively on a dev-set as a function of lookahead, and the number of LCBGRU layers. The models are trained on a sampled subset (10 %) of the complete training data. The green and blue baselines are the performance of models where all the 3 GRU layers are bidirectional and forward-only correspondingly.'.
+Question: Is the CER performance of the bidirectional model consistently lower than the CER performance of the forward model with LA-conv?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Please answer with 'Yes' or 'No' only.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended finite answer set binary non-visual;Figure 4. 4a and 4b plot CER and serving latency respectively on a dev-set as a function of lookahead, and the number of LCBGRU layers. The models are trained on a sampled subset (10 %) of the complete training data. The green and blue baselines are the performance of models where all the 3 GRU layers are bidirectional and forward-only correspondingly.;Is the CER performance of the bidirectional model consistently lower than the CER performance of the forward model with LA-conv?;Yes;No;0.0;0.0;0.0;0.0;0.0;0.0;0.9992687702178956;0.9992687702178956;0.9992687702178956;Yes;No;False;False;True;True;False
+624694491ef57d9e5f2b134b9dafec78;1904.03670v2-Figure3-1;1904.03670v2-Figure3-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 3: Accuracy on the validation set over time for models trained on (a) the full SLU dataset or (b) 10% of the dataset.'.
+Question: Do the lines in the right graph ever reach higher than the maximum height of the lines on the left graph?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Please answer with 'Yes' or 'No' only.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended finite answer set binary visual;Figure 3: Accuracy on the validation set over time for models trained on (a) the full SLU dataset or (b) 10% of the dataset.;Do the lines in the right graph ever reach higher than the maximum height of the lines on the left graph?;No;Yes;0.0;0.0;0.0;0.0;0.0;0.0;0.9992687702178956;0.9992687702178956;0.9992687702178956;No;Yes;False;False;True;True;False
+a642755d690b7ae9068d5ab0f88b7191;2002.10375v2-Figure2-1;2002.10375v2-Figure2-1.png;"You are looking at a line chart.
+The caption is: 'Figure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.'.
+Question: Is the label of y-axis 'classification precision'?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Please answer with 'Yes' or 'No' only.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended finite answer set binary non-visual;Figure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.;Is the label of y-axis 'classification precision'?;No;Yes;0.0;0.0;0.0;0.0;0.0;0.0;0.9992687702178956;0.9992687702178956;0.9992687702178956;No;Yes;False;False;True;True;False
+22bd5aef1799532a08c629286def21af;W16-2912.pdf-Figure2;W16-2912.pdf-Figure2.png;"You are looking at a venn diagram.
+The caption is: 'Figure 2: Venn diagram: number of unique terms from the generated vocabularies found in the evaluation data: UMLS, WordNet with linguistic heuristics (WNling), and word2vec.'.
+Question: Is the number of unique terms found only in UMLS greater than the number of terms found only in WNling?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Please answer with 'Yes' or 'No' only.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];venn diagram;closed-ended finite answer set binary non-visual;Figure 2: Venn diagram: number of unique terms from the generated vocabularies found in the evaluation data: UMLS, WordNet with linguistic heuristics (WNling), and word2vec.;Is the number of unique terms found only in UMLS greater than the number of terms found only in WNling?;No;Yes;0.0;0.0;0.0;0.0;0.0;0.0;0.9992687702178956;0.9992687702178956;0.9992687702178956;No;Yes;False;False;True;True;False
+ffed9cab8804fcbfadbc40dbd93f1d42;1608.02893v2-Figure2-1;1608.02893v2-Figure2-1.png;"You are looking at a line chart with 4 subfigures.
+The caption is: 'Figure 2: Model performance over time.'.
+Question: Is the model accuracy for input 'two cities.txt' consistently higher than that of 'holmes.txt' at 600 epochs?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Please answer with 'Yes' or 'No' only.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended finite answer set binary non-visual;Figure 2: Model performance over time.;Is the model accuracy for input 'two cities.txt' consistently higher than that of 'holmes.txt' at 600 epochs?;No;Yes;0.0;0.0;0.0;0.0;0.0;0.0;0.9992687702178956;0.9992687702178956;0.9992687702178956;No;Yes;False;False;True;True;False
+c3b4aba3ed57758e833d88e87934dc50;1909.00923v1-Figure3-1;1909.00923v1-Figure3-1.png;"You are looking at a line chart.
+The caption is: 'Fig. 3 Distribution of repetition rate of ten-fold cross-validation'.
+Question: Does the gray line representing PPR(AT) have a consistently higher value than the light gray line representing PF(AT)?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Please answer with 'Yes' or 'No' only.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended finite answer set binary visual;Fig. 3 Distribution of repetition rate of ten-fold cross-validation;Does the gray line representing PPR(AT) have a consistently higher value than the light gray line representing PF(AT)?;No;Yes;0.0;0.0;0.0;0.0;0.0;0.0;0.9992687702178956;0.9992687702178956;0.9992687702178956;No;Yes;False;False;True;True;False
+e7219e1fde23ee133c42c8dbde3c2c52;1911.08522v2-Figure5-1;1911.08522v2-Figure5-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 5: Entity F1 scores on the testing dataset given different memory sizes. Higher values are preferred.'.
+Question: Does the KVRN model consistently outperform the MANN/MD model across all memory sizes?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Please answer with 'Yes' or 'No' only.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended finite answer set binary non-visual;Figure 5: Entity F1 scores on the testing dataset given different memory sizes. Higher values are preferred.;Does the KVRN model consistently outperform the MANN/MD model across all memory sizes?;No;Yes;0.0;0.0;0.0;0.0;0.0;0.0;0.9992687702178956;0.9992687702178956;0.9992687702178956;No;Yes;False;False;True;True;False
+0e66ca115b7a79de916a4d1419d1abc6;2002.12549v1-Figure1-1;2002.12549v1-Figure1-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 1: The UNMT and SNMT performance as the word noise (a value) and word order noise (b value) increases on the noisy En-Fr newstest2014 set.'.
+Question: Is the orange dot higher than the blue dot at a = 0 in the left plot?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Please answer with 'Yes' or 'No' only.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended finite answer set binary visual;Figure 1: The UNMT and SNMT performance as the word noise (a value) and word order noise (b value) increases on the noisy En-Fr newstest2014 set.;Is the orange dot higher than the blue dot at a = 0 in the left plot?;No;Yes;0.0;0.0;0.0;0.0;0.0;0.0;0.9992687702178956;0.9992687702178956;0.9992687702178956;No;Yes;False;False;True;True;False
+7e8ed317f420ad61b8a3906dae07cc15;W16-2302.pdf-Figure5;W16-2302.pdf-Figure5.png;"You are looking at a confusion matrix with 2 subfigures.
+The caption is: 'Figure 5: English-to-German (en-de) system-level metric significance test results; a green cell corresponds to a significant increase in correlation for the metric in a given row over the metric in a given column according to Williams test; RR = standard WMT relative ranking.'.
+Question: Is the significance test for chrF1 in the 'newstest2016' dataset showing a significant increase in correlation over the metric in the 'ittset2016' dataset for the same metric?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Please answer with 'Yes' or 'No' only.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];confusion matrix;closed-ended finite answer set binary non-visual;"Figure 5: English-to-German (en-de) system-level metric significance test results; a green cell corresponds to a significant increase in correlation for the metric in a given row over the metric in a given column according to Williams test; RR = standard WMT relative ranking.";Is the significance test for chrF1 in the 'newstest2016' dataset showing a significant increase in correlation over the metric in the 'ittset2016' dataset for the same metric?;No;Yes;0.0;0.0;0.0;0.0;0.0;0.0;0.9992687702178956;0.9992687702178956;0.9992687702178956;No;Yes;False;False;True;True;False
+a793b91164b30d61877269e565ba6c48;2020.acl-main.343.pdf-Figure4;2020.acl-main.343.pdf-Figure4.png;"You are looking at a scatter plot with 6 subfigures.
+The caption is: 'Figure 4: Visualization in Unimodal Representations. In each subfigure, red, green, and blue points represent the unimodal representations in text, audio, and video, respectively. The first row shows the learned representations from models with the multimodal task only. The second row shows the learned representations from multi-task models. The two subgraphs in the same column contrast each other'.
+Question: Which model has a plot with the lowest maximum value marked on its x axis
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Available options: {'A': 'MLF-DNN', 'B': 'MTFN', 'C': 'MLMF', 'D': 'They are all equal.'}.
+Respond only with the corresponding option keyword(s) (e.g., 'A' or 'A,B' if multiple apply, without space between).
+Do not include explanations, full sentences, or option text.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Evaluate the provided answer choices and select the best one
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";"[{""A"": ""MLF-DNN"", ""B"": null, ""C"": null, ""D"": null}, {""A"": null, ""B"": ""MTFN"", ""C"": null, ""D"": null}, {""A"": null, ""B"": null, ""C"": ""MLMF"", ""D"": null}, {""A"": null, ""B"": null, ""C"": null, ""D"": ""They are all equal.""}]";scatter plot;closed-ended finite answer set non-binary non-visual;Figure 4: Visualization in Unimodal Representations. In each subfigure, red, green, and blue points represent the unimodal representations in text, audio, and video, respectively. The first row shows the learned representations from models with the multimodal task only. The second row shows the learned representations from multi-task models. The two subgraphs in the same column contrast each other;Which model has a plot with the lowest maximum value marked on its x axis;C;D;0.0;0.0;0.0;0.0;0.0;0.0;0.999380886554718;0.999380886554718;0.999380886554718;C;D;False;False;True;True;False

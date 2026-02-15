@@ -1,4 +1,6 @@
-Metric;F1 (%);Precision (%);Recall (%)
+"Mean Scores for SciVQA Dataset 
+InternVL3_5-8B";;;
+;F1 (%);Precision (%);Recall (%)
 ROUGE-1;59.206;60.325;60.36
 ROUGE-L;59.163;60.294;60.288
 BERTScore;95.335;95.48;95.252

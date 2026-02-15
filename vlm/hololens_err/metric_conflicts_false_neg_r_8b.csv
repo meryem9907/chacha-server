@@ -1,0 +1,36 @@
+instance_id;figure_id;image_file;dynamic_prompt;answer_options;figure_type;qa_pair_type;caption;question;gold;prediction;rouge1_precision;rouge1_recall;rouge1_fmeasure;rougeL_precision;rougeL_recall;rougeL_fmeasure;bertscore_precision;bertscore_recall;bertscore_f1;gold_n;pred_n;exact_match;sim_high_r;sim_low_r;sim_high_b;sim_low_b
+31a59e74e1e56b136d0638bf56d7a942;1908.06039v3-Figure6-1;1908.06039v3-Figure6-1.png;"You are looking at a line chart with 2 subfigures.
+The caption is: 'Figure 6: Learning curve of CNN+PROTO (left) v.s. OUR (right) on the Reuters dataset. We plot average 5-way 1-shot accuracy over 50 episodes sampled from seen classes (blue) and unseen classes (red). While OUR has weaker representational power, it generalizes better to unseen classes.'.
+Question: What is the approximate maximum value of the red line in the right graph at task 2000?
+[Visual cue] Pay attention to color, position, shape, size, height, or direction.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Respond with a concise, one-word or very short phrase. No full sentences, no explanations.
+If the response is numeric, use digits only and include any units or suffixes (e.g., %, kg, $).
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended infinite answer set visual;Figure 6: Learning curve of CNN+PROTO (left) v.s. OUR (right) on the Reuters dataset. We plot average 5-way 1-shot accuracy over 50 episodes sampled from seen classes (blue) and unseen classes (red). While OUR has weaker representational power, it generalizes better to unseen classes.;What is the approximate maximum value of the red line in the right graph at task 2000?;0.75;<answer>0.75</answer>;0.5;1.0;0.6666666666666666;0.5;1.0;0.6666666666666666;0.8225992321968079;0.9545083045959472;0.883658230304718;0.75;0.75;True;False;True;True;False
+a642755d690b7ae9068d5ab0f88b7191;2002.10375v2-Figure2-1;2002.10375v2-Figure2-1.png;"You are looking at a line chart.
+The caption is: 'Figure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.'.
+Question: Is the label of y-axis 'classification precision'?
+[Data-only cue] Focus your response more on numeric or textual values.
+Use information from the caption when it directly supports your answer; otherwise, focus on data present in the visual itself.
+Please answer with 'Yes' or 'No' only.
+If the answer cannot be inferred from the figure and caption, please reply with the sentence: 'It is not possible to answer this question based only on the provided data.'
+<thinking> Reasoning (do NOT respond yet)
+Step 1 Identify the figure type and its axes/legend.
+Step 2 Locate the graphical elements relevant to the question.
+Step 3 Extract the key-value information.
+Step 4 Determine the required values or qualitative trends.
+Step 5 Integrate insights from the caption when necessary.
+Step 6 Ensure the answer is either Yes or No as required
+Step 7 Produce the concise answer following the formatting rules above.
+
+Final respond:";[];line chart;closed-ended finite answer set binary non-visual;Figure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.;Is the label of y-axis 'classification precision'?;No;<answer> No </answer>;0.3333333333333333;1.0;0.5;0.3333333333333333;1.0;0.5;0.7503783702850342;0.8191242218017578;0.7832457423210144;No;No;True;False;True;False;True
